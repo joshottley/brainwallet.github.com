@@ -340,7 +340,10 @@
         timeout = setTimeout(generate, TIMEOUT);
     }
 
-    function genRandomPass() {
+    //this is your edit point. 
+      
+
+     function genRandomPass() {
         // chosen by fair dice roll
         // guaranted to be random
         $('#pass').val('correct horse battery staple');
